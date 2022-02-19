@@ -5,7 +5,7 @@ This short guide shows an example of how to create a simple HTTP and HTTPS serve
 
 ***
 
-## [HTTP Server]()
+## [HTTP Server](https://github.com/thexcoderz/http-https-server-nodejs/blob/main/http_server.js)
 ### Code
 ```javascript
 const http = require("http");  // import http module
@@ -34,7 +34,7 @@ $ curl http://localhost:80
 Output : HTTP server is working !
 ```
 ***
-## [HTTPS Server]()
+## [HTTPS Server](https://github.com/thexcoderz/http-https-server-nodejs/blob/main/https_server.js)
 ##### To create an HTTPS server we will need a ssl certificate. To generate it I will be using openssl. Use the following commands to generate it.
 ```bash
 $ openssl genrsa -out key.pem
